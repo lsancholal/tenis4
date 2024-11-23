@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.checkout-container {
+    background-color: #121212; 
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .checkout-title {
+    text-align: center;
+    color: #292cc9; 
+    margin-bottom: 2rem;
+  }
+  
+  .checkout-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .checkout-input {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    border: 1px solid #130081; 
+    transition: all 0.3s ease-in-out;
+  }
+
+  .checkout-input input {
+    color: white;
+  }
+  
+  .checkout-input:hover,
+  .checkout-input:focus {
+    border-color: #5d4aff;
+    background-color: #444;
+  }
+  
+  .checkout-button {
+    background-color: #3643f4; 
+    color: white;
+    border-radius: 4px;
+    padding: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-button:hover {
+    background-color: #2904fd; 
+  }
+  
+  button:disabled {
+    background-color: #bdbdbd;
+    cursor: not-allowed;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
